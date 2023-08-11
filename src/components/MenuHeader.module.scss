@@ -1,0 +1,144 @@
+.menuContent {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+}
+
+// Content left start
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  width: 300px;
+  height: 100%;
+  float: left;
+}
+
+.leftIconUser {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.leftIconDate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.leftIconYouTube {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.iconYouTube {
+  width: 25px;
+  height: 25px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.leftIconTelegram {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.iconTelegram {
+  width: 25px;
+  height: 25px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.leftIconVK {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.iconVK {
+  width: 25px;
+  height: 25px;
+  margin: 0px;
+  padding: 0px;
+}
+
+// Content left end
+
+// Content centre start
+.center {
+  display: flex;
+  position: relative;
+  width: 300px;
+  height: 100%;
+}
+
+.centerInfo {
+  width: 100%;
+  height: 30px;
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+// Content centre end
+
+// Content right start
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  width: 300px;
+  height: 100%;
+  float: right;
+}
+
+.rightIconTime {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.rightIconMusic {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+// Content right end

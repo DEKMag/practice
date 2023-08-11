@@ -1,0 +1,64 @@
+.menuContent {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+// Content left start
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  width: 300px;
+  height: 100%;
+  float: left;
+}
+
+// Content left end
+
+// Content centre start
+
+.center {
+  display: flex;
+  position: relative;
+  width: 300px;
+  height: 100%;
+}
+
+// Content centre end
+
+// Content right start
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  width: 300px;
+  height: 100%;
+  float: right;
+}
+
+.rightIconGitHub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.iconGitHub {
+  width: 25px;
+  height: 25px;
+  margin: 0px;
+  padding: 0px;
+}
+
+// Content right end
